@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $('.skill').removeClass('underline');
+  $('.skill').mouseenter(function(){
+    $(this).addClass('underline');
+  });
+  $('.skill').mouseleave(function(){
+    $(this).removeClass('underline');
+  });
+});

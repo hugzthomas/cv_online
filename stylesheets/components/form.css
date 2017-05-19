@@ -1,0 +1,14 @@
+/* line 1, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/form.scss */
+.formulaire {
+  height: 305px;
+  padding: 30px;
+  text-align: left; }
+
+/* line 7, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/form.scss */
+.user-input {
+  width: 387px; }
+
+/* line 11, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/form.scss */
+.send {
+  width: 387px;
+  background-color: #E3147E; }

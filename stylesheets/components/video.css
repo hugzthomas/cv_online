@@ -1,0 +1,48 @@
+/* line 1, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative; }
+
+/* line 6, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.no-video .video-container video,
+.touch .video-container video {
+  display: none; }
+
+/* line 10, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important; }
+
+/* line 14, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000; }
+
+/* line 23, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute; }
+
+/* line 28, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%; }
+
+/* line 34, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0; }
+
+/* line 39, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/video.scss */
+.video-container video.fillWidth {
+  width: 100%; }

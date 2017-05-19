@@ -1,0 +1,24 @@
+/* line 1, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/card.scss */
+.grey-wrap {
+  background-color: #1B2E4A;
+  height: 550px; }
+
+/* line 5, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/card.scss */
+.card {
+  position: relative;
+  padding: 30px;
+  height: 200px;
+  color: white;
+  margin-top: 20px; }
+
+/* line 13, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/card.scss */
+.card-title {
+  font-weight: bold;
+  margin-top: 50px;
+  color: white;
+  margin-bottom: 15px; }
+
+/* line 20, /Users/huguesthomas/code/hugzthomas/hugh-online_resume/source/stylesheets/components/card.scss */
+.logo {
+  position: absolute;
+  left: 158px; }
